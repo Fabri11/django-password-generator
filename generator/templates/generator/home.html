@@ -2,11 +2,13 @@
 
 {% block content %}
 
+<link rel="icon" href="../../assets/logo.png">
+
 <div class="col-md-4 offset-md-4">
     <form action="{% url 'password' %}" class="card card-body p-5" style="background-color: #121212 ;">
 
         <h1 class="h5">Generador de Contraseñas</h1>
-    
+
         <label for="length">Selecciona la cantidad de caracteres de tu contraseña:</label>
         <select name="length" id="length">
             <option value="6">6 caracteres</option>
