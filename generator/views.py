@@ -20,7 +20,7 @@ def password(request):
         caracteres.extend(list('!@#$%&*-_.,+'))
     if request.GET.get('numbers'):
         caracteres.extend(list('123456789'))
-    
+
 
 
     for c in range(length):
